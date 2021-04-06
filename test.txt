@@ -1,0 +1,19 @@
+1. init the file
+
+2. git branch 
+
+-m move
+-M move force
+-c copy
+-C copy force
+
+-r remotes
+-a all
+-l list
+
+设置本地分支与远程分支的追踪
+git branch --set-upstream-to=origin/远程分支名 本地分支名
+
+
+查看本地分支与远程分支的追踪
+git branch -vv
